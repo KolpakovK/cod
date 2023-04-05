@@ -2,13 +2,7 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "development": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "prod": "npm run production",
-        "build": "vite build -- --https",
-        "production": "mix --production"
+        "build": "vite build -- --https"
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.1",
